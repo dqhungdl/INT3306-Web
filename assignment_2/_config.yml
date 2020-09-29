@@ -1,0 +1,23 @@
+title:              Welcome to my blog!
+email:              dqhungdl@gmail.com
+description:        Personal blog
+author:             Duong Quoc Hung
+baseurl:            "/myblog"
+url:                "https://dqhungdl.github.io"
+
+# Social Profiles
+github_username:    dqhungdl
+facebook_username:  dqhungdl
+linkedin_username: dqhungdl
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/blogs/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
